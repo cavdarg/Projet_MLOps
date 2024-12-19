@@ -1,0 +1,17 @@
+# Utiliser une image Python légère
+FROM python:3.10-slim
+
+# Définir le répertoire de travail dans le conteneur
+WORKDIR /app
+
+# Copier tous les fichiers dans le répertoire de travail du conteneur
+COPY . /app
+
+# Installer les dépendances nécessaires
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Exposer le port 5000 (port utilisé par Flask)
+EXPOSE 5000
+
+# Commande pour démarrer l'application
+CMD ["python", "app.py"]

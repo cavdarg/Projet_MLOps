@@ -1,0 +1,15 @@
+artifact_uri: mlruns/422267945946849528/07e8ea73a27e4afaa4815c4354bb33b4/artifacts
+end_time: 1734535273315
+entry_point_name: ''
+experiment_id: '422267945946849528'
+lifecycle_stage: active
+run_id: 07e8ea73a27e4afaa4815c4354bb33b4
+run_name: unequaled-ray-735
+run_uuid: 07e8ea73a27e4afaa4815c4354bb33b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734535270188
+status: 3
+tags: []
+user_id: root

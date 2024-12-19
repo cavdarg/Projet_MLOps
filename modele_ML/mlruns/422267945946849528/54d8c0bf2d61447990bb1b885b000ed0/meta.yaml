@@ -1,0 +1,15 @@
+artifact_uri: mlruns/422267945946849528/54d8c0bf2d61447990bb1b885b000ed0/artifacts
+end_time: 1734528978799
+entry_point_name: ''
+experiment_id: '422267945946849528'
+lifecycle_stage: active
+run_id: 54d8c0bf2d61447990bb1b885b000ed0
+run_name: resilient-newt-348
+run_uuid: 54d8c0bf2d61447990bb1b885b000ed0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734528976265
+status: 3
+tags: []
+user_id: gcavdar

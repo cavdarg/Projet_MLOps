@@ -1,0 +1,15 @@
+artifact_uri: mlruns/422267945946849528/b7936f1f32f743a9999aa35960da34f5/artifacts
+end_time: 1734528955192
+entry_point_name: ''
+experiment_id: '422267945946849528'
+lifecycle_stage: active
+run_id: b7936f1f32f743a9999aa35960da34f5
+run_name: persistent-ant-651
+run_uuid: b7936f1f32f743a9999aa35960da34f5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734528952642
+status: 3
+tags: []
+user_id: gcavdar

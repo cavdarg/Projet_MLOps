@@ -1,0 +1,14 @@
+- name: Créer un répertoire temporaire pour l'image
+  file:
+    path: /tmp/docker_images
+    state: directory
+    mode: '0755'
+
+- name: Transférer l'image Docker vers l'EC2
+  copy:
+    src: /home/gcavdar/Projet_MLOps/modele_ML/docker_images/app-api.tar
+    dest: /tmp/docker_images/app-api.tar
+
+- name: Charger l'image Docker sur l'EC2
+  shell: docker load < /tmp/docker_images/app-api.tar
+

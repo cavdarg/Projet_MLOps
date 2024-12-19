@@ -1,0 +1,15 @@
+artifact_uri: mlruns/422267945946849528/1b31837fb87945eebc002caa11756da2/artifacts
+end_time: 1734535279319
+entry_point_name: ''
+experiment_id: '422267945946849528'
+lifecycle_stage: active
+run_id: 1b31837fb87945eebc002caa11756da2
+run_name: placid-skunk-456
+run_uuid: 1b31837fb87945eebc002caa11756da2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734535276461
+status: 3
+tags: []
+user_id: root

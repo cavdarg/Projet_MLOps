@@ -1,0 +1,15 @@
+artifact_uri: mlruns/422267945946849528/129ffbded2cd49ceade921eb78317b9f/artifacts
+end_time: 1734535266729
+entry_point_name: ''
+experiment_id: '422267945946849528'
+lifecycle_stage: active
+run_id: 129ffbded2cd49ceade921eb78317b9f
+run_name: legendary-rook-923
+run_uuid: 129ffbded2cd49ceade921eb78317b9f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734535263334
+status: 3
+tags: []
+user_id: root

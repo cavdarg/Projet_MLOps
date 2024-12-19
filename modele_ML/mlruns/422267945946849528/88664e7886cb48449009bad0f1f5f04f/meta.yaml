@@ -1,0 +1,15 @@
+artifact_uri: mlruns/422267945946849528/88664e7886cb48449009bad0f1f5f04f/artifacts
+end_time: 1734528960331
+entry_point_name: ''
+experiment_id: '422267945946849528'
+lifecycle_stage: active
+run_id: 88664e7886cb48449009bad0f1f5f04f
+run_name: omniscient-doe-976
+run_uuid: 88664e7886cb48449009bad0f1f5f04f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734528957838
+status: 3
+tags: []
+user_id: gcavdar

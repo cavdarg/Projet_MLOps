@@ -1,0 +1,15 @@
+artifact_uri: mlruns/422267945946849528/93797eb4a93144989a27de47cddc829c/artifacts
+end_time: 1734528963050
+entry_point_name: ''
+experiment_id: '422267945946849528'
+lifecycle_stage: active
+run_id: 93797eb4a93144989a27de47cddc829c
+run_name: agreeable-goose-717
+run_uuid: 93797eb4a93144989a27de47cddc829c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734528960469
+status: 3
+tags: []
+user_id: gcavdar

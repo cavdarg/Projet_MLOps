@@ -1,0 +1,15 @@
+artifact_uri: mlruns/422267945946849528/47a03d0810304e00a1255c47ebec1a9e/artifacts
+end_time: 1734535263248
+entry_point_name: ''
+experiment_id: '422267945946849528'
+lifecycle_stage: active
+run_id: 47a03d0810304e00a1255c47ebec1a9e
+run_name: learned-lark-395
+run_uuid: 47a03d0810304e00a1255c47ebec1a9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734535260489
+status: 3
+tags: []
+user_id: root

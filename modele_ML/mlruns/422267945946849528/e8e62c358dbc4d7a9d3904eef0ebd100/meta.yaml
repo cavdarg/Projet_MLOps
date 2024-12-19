@@ -1,0 +1,15 @@
+artifact_uri: mlruns/422267945946849528/e8e62c358dbc4d7a9d3904eef0ebd100/artifacts
+end_time: 1734535285178
+entry_point_name: ''
+experiment_id: '422267945946849528'
+lifecycle_stage: active
+run_id: e8e62c358dbc4d7a9d3904eef0ebd100
+run_name: sassy-skink-802
+run_uuid: e8e62c358dbc4d7a9d3904eef0ebd100
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734535282296
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: mlruns/422267945946849528/744ca91aaa0f4e2d86043bbfefa1ae33/artifacts
+end_time: 1734528952622
+entry_point_name: ''
+experiment_id: '422267945946849528'
+lifecycle_stage: active
+run_id: 744ca91aaa0f4e2d86043bbfefa1ae33
+run_name: funny-bat-81
+run_uuid: 744ca91aaa0f4e2d86043bbfefa1ae33
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734528948415
+status: 3
+tags: []
+user_id: gcavdar

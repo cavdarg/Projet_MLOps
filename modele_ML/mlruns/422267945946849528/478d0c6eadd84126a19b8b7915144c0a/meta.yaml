@@ -1,0 +1,15 @@
+artifact_uri: mlruns/422267945946849528/478d0c6eadd84126a19b8b7915144c0a/artifacts
+end_time: 1734528973604
+entry_point_name: ''
+experiment_id: '422267945946849528'
+lifecycle_stage: active
+run_id: 478d0c6eadd84126a19b8b7915144c0a
+run_name: unique-ram-756
+run_uuid: 478d0c6eadd84126a19b8b7915144c0a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734528971039
+status: 3
+tags: []
+user_id: gcavdar

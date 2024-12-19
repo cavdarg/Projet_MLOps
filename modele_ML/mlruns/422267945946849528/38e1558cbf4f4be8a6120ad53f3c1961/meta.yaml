@@ -1,0 +1,15 @@
+artifact_uri: mlruns/422267945946849528/38e1558cbf4f4be8a6120ad53f3c1961/artifacts
+end_time: 1734383797480
+entry_point_name: ''
+experiment_id: '422267945946849528'
+lifecycle_stage: active
+run_id: 38e1558cbf4f4be8a6120ad53f3c1961
+run_name: thoughtful-ape-592
+run_uuid: 38e1558cbf4f4be8a6120ad53f3c1961
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734383793591
+status: 3
+tags: []
+user_id: gcavdar

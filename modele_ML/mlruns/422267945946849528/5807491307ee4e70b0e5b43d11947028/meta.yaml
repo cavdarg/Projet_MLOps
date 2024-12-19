@@ -1,0 +1,15 @@
+artifact_uri: mlruns/422267945946849528/5807491307ee4e70b0e5b43d11947028/artifacts
+end_time: 1734528965726
+entry_point_name: ''
+experiment_id: '422267945946849528'
+lifecycle_stage: active
+run_id: 5807491307ee4e70b0e5b43d11947028
+run_name: redolent-gull-90
+run_uuid: 5807491307ee4e70b0e5b43d11947028
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734528963113
+status: 3
+tags: []
+user_id: gcavdar

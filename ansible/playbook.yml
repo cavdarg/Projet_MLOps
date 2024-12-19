@@ -1,0 +1,8 @@
+- name: Configurer l'EC2 et déployer l'application
+  hosts: ml_api
+  become: yes
+
+  roles:
+    - docker_install
+    - transfer_image
+    - deploy_app

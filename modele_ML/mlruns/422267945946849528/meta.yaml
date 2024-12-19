@@ -1,0 +1,6 @@
+artifact_location: mlruns/422267945946849528
+creation_time: 1734383793480
+experiment_id: '422267945946849528'
+last_update_time: 1734383793480
+lifecycle_stage: active
+name: Iris RandomForest Experiment

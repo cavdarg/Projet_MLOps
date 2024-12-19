@@ -1,0 +1,15 @@
+artifact_uri: mlruns/422267945946849528/6cdb0640b35e49a99de6ba88961cec57/artifacts
+end_time: 1734528976200
+entry_point_name: ''
+experiment_id: '422267945946849528'
+lifecycle_stage: active
+run_id: 6cdb0640b35e49a99de6ba88961cec57
+run_name: lyrical-shrike-892
+run_uuid: 6cdb0640b35e49a99de6ba88961cec57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734528973626
+status: 3
+tags: []
+user_id: gcavdar
