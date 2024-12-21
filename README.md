@@ -311,7 +311,65 @@ python deploy.py
 
 Le déploiement sur AWS EC2 est réalisé grâce à Terraform pour provisionner l'infrastructure et Ansible pour configurer l'instance et déployer les conteneurs Docker.
 
+## 1 : Pré-requis**
+
+### **Outils nécessaires**
+
+- **Terraform** pour provisionner l'infrastructure.
+- **Ansible** pour configurer les serveurs.
+- **Docker** pour conteneuriser l'application.
+
+### **Clé SSH**
+
+- Placez votre clé privée `myKey.pem` dans le répertoire `terraform/`.
+
+### **AWS Credentials**
+
+- Assurez-vous que vos clés AWS (`credentials`) sont configurées dans :
+  - Sous Linux : `~/.aws/credentials`
+  - Sous Windows : `C:\Users\<VotreNom>\.aws\credentials`
+
+---
+
+## 2 : Installer les Dépendances**
+
 ### **Terraform**
+
+1. Téléchargez Terraform depuis [Terraform Downloads](https://www.terraform.io/downloads).
+2. Placez le binaire Terraform dans votre `PATH`.
+3. Vérifiez l'installation :
+   ```bash
+   terraform --version
+   ```
+
+### **Ansible**
+
+1. Installez Ansible :
+   ```bash
+   sudo apt update
+   sudo apt install ansible -y
+   ```
+2. Vérifiez l'installation :
+   ```bash
+   ansible --version
+   ```
+
+### **Docker**
+
+1. Installez Docker sur votre machine locale :
+   ```bash
+   sudo apt update
+   sudo apt install docker.io -y
+   ```
+2. Vérifiez l'installation :
+   ```bash
+   docker --version
+   ```
+
+---
+
+### **Terraform**
+
 1. **Naviguer dans le répertoire Terraform** :
    ```bash
    cd ../terraform
