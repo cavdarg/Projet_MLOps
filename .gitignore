@@ -1,1 +1,2 @@
 modele_ML/docker_images/*.tar
+terraform/.terraform/providers/
