@@ -11,4 +11,3 @@
 
 - name: Charger l'image Docker sur l'EC2
   shell: docker load < /tmp/docker_images/app-api.tar
-

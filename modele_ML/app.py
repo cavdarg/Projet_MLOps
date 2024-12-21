@@ -1,9 +1,26 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, Response
 import mlflow
 import mlflow.sklearn
 import os
+from prometheus_client import start_http_server, Summary, Counter, Gauge, generate_latest
 
 app = Flask(__name__)
+
+# Définir les métriques
+REQUEST_COUNT = Counter('request_count', 'Nombre de requêtes reçues', ['method', 'endpoint'])
+IN_PROGRESS = Gauge('in_progress', 'Requêtes en cours')
+REQUEST_LATENCY = Summary('request_latency_seconds', 'Temps d\'exécution des requêtes')
+
+# Exemple de middleware pour mesurer les métriques
+@app.before_request
+def before_request():
+    IN_PROGRESS.inc()
+    REQUEST_COUNT.labels(method=request.method, endpoint=request.path).inc()
+
+@app.after_request
+def after_request(response):
+    IN_PROGRESS.dec()
+    return response
 
 # Définir l'expérience MLflow et configurer l'URI
 EXPERIMENT_NAME = "Iris RandomForest Experiment"
@@ -51,5 +68,11 @@ def predict():
 def health():
     return jsonify({"status": "running"}), 200
 
+# Endpoint /metrics
+@app.route('/metrics')
+def metrics():
+    return Response(generate_latest(), mimetype='text/plain')
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
